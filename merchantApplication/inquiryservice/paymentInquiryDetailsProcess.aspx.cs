@@ -17,9 +17,9 @@ namespace merchantApplication.inquiryservice
 
             try
             {
-                string certLocation = "S:\\OAB Projects\\oabcert\\oabipay_com.crt";
-                String tranportalId = "ipay707336589914";     // merchant tranportal Id // Replace with tranportal Id which received from bank in email
-                string tranportalPassword = "Shopping@123";     // merchant tranportal password // Replace with the tranportal password which received from bank in email
+                string certLocation = "S:\\OAB Projects\\oabcert\\oabipay_com.crt"; // Download the domain certificate from (UAT ENV : https://certpayments.oabipay.com, Production Env : https://securepayments.oabipay.com) using browser
+                String tranportalId = "ipay************";     // merchant tranportal Id // Replace with tranportal Id which received from Oman Arab Bank in email
+                string tranportalPassword = "************";     // merchant tranportal password // Replace with the tranportal password which received from Oman Arab Bank in email
                 String currency = "512";    // Oman Currency
                 string pginquiryendpoint = "https://certpayments.oabipay.com/trxns/tranPipe.htm?param=tranInit";
 

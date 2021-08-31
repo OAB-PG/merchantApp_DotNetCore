@@ -17,9 +17,9 @@ namespace merchantApplication.merchanthstcvbv
             try
             {
 
-                String id = "ipay015625072956";    // merchant tranportal Id // Replace with tranportal Id which received from bank in email
-                String password = "KFC@2020";    // merchant tranportal password // Replace with the tranportal password which received from bank in email
-                string key = "015674581693015674581693"; // merchant resource key // Replace with the resource key which received from bank in email
+                String id = "ipay************";    // Merchant tranportal Id // Replace with tranportal Id which received from Oman Arab Bank in email
+                String password = "************";    // Merchant tranportal password // Replace with the tranportal password which received from Oman Arab Bank in email
+                string key = "********************"; // Merchant resource key // Replace with the resource key which received from Oman Arab Bank in email
                 string pgendpoint = "https://certpayments.oabipay.com/trxns/VPAS.htm?actionVPAS=VbvVEReqProcessHTTP&";
                  String receiptURL = "http://localhost:54838/merchanthstcvbv/paymentvbvResponsePage.aspx";     // URL where want to receive the payment response from the payment gateway
                 String errorURL = "http://localhost:54838/merchanthstcvbv/paymentvbvResponsePage.aspx";       // URL where want to receive the payment error if in payment gateway

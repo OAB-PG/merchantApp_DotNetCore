@@ -35,7 +35,7 @@ namespace merchantApplication.bankhosted
             }
             else
             {
-                String Key = "707360962352707360962352"; // Replace with the resource key which received from bank in email
+                String Key = "********************************";  // Merchant resource key // Replace with the resource key which received from Oman Arab Bank in email
                 byte[] key = Encoding.ASCII.GetBytes(Key);
                 int NumberChars = StrTrandata.Length / 2;
                 byte[] data = new byte[NumberChars];

@@ -17,9 +17,9 @@ namespace merchantApplication.bankhosted
             try
             {
 
-                String id = "ipay707336589914";    // merchant tranportal Id // Replace with tranportal Id which received from bank in email
-                String password = "Shopping@123";    // merchant tranportal password // Replace with the tranportal password which received from bank in email
-                string key = "707360962352707360962352"; // merchant resource key // Replace with the resource key which received from bank in email
+                String id = "ipay************";    // Merchant tranportal Id // Replace with tranportal Id which received from Oman Arab Bank in email
+                String password = "************";    // Merchant tranportal password // Replace with the tranportal password which received from Oman Arab Bank in email
+                string key = "70736************"; // Merchant resource key // Replace with the resource key which received from Oman Arab Bank in email
                 string pgendpoint = "https://certpayments.oabipay.com/trxns/PaymentHTTP.htm?param=paymentInit&";
                  String receiptURL = "http://localhost:54838/bankhosted/bankHstedResponsePage.aspx";     // URL where want to receive the payment response from the payment gateway
                 String errorURL = "http://localhost:54838/bankhosted/bankHstedResponsePage.aspx";       // URL where want to receive the payment error if in payment gateway
